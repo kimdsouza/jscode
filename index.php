@@ -1,7 +1,8 @@
 
 <script type="text/javascript">
-var i=0;
-for(i=0;i<=100;i++){
+var i;
+for(i=1;i<=100;i++){
+document.write(i);
 if(i%3==0){
 document.write('Earth');
   }
